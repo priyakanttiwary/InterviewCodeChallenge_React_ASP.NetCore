@@ -25,6 +25,8 @@ Add Product Page
   and if quantity is more than 100 then it should be in green colure.
 
 * Implement Server side pagination for product listing grid where page size should be 5 only.
+  
+*  Log the elapsed time of each API method in millisecond  to check performance of API. 
 
 * Write Unit test cases of server side code only.
 
