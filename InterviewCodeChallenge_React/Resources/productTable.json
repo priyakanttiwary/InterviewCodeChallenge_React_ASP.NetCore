@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Name": "LG LCD TV",
+    "Quantity": 100,
+    "Code": "LGLCT001",
+    "Price": 12000.0,
+    "Description": "This model is very good in picture quality"
+  },
+  {
+    "Id": 2,
+    "Name": "iPhone 14 Pro",
+    "Quantity": 40,
+    "Code": "IPHO14001",
+    "Price": 150000.0,
+    "Description": "This is very good mobile"
+  },
+  {
+    "Id": 3,
+    "Name": "LG Refrigerator 150 L ",
+    "Quantity": 200,
+    "Code": "LGR150005",
+    "Price": 25000.0,
+    "Description": "This good small family"
+  },
+  {
+    "Id": 4,
+    "Name": "Men's Running Shoes",
+    "Quantity": 75,
+    "Code": "ADMRS4001",
+    "Price": 4000.0,
+    "Description": "This is good for running "
+  },
+  {
+    "Id": 5,
+    "Name": "Puma Men's T-Shirts",
+    "Quantity": 10,
+    "Code": "PMT2002",
+    "Price": 2000.0,
+    "Description": null
+  }
+]

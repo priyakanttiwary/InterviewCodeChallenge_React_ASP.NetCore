@@ -1,0 +1,39 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #002dd4 ;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #002dd4;
+    border-color: #1861ac;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #002dd4;
+    border-color: #1861ac;
+}
+body:not(.login) a {
+    color: #002dd4 !important;
+   
+}
+
+.panel-default > .panel-heading {
+    color: white !important;
+    background-color: #002dd4 !important;
+    border-color: black;
+}
+.grid-heading {
+    background-color: #002dd4;
+    color: white ;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 0.71429rem !important;
+}
