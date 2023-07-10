@@ -26,7 +26,7 @@ Add/Update the existing code in order to satisfy the following requirements:
 
 * Log all server side exception globally and log  all client side exception on server instead of console.log()
 
-* Implement appropriate clint side and server-side validation of add product functionality.
+* Implement appropriate client side and server-side validation of add product functionality.
      * Price field should accept only number decimal point and after decimal point max 2 digit and before decimal point accept max 10 digit number(Same validation will be applicable for input and copy past).
      * Quantity field should accept only number between 1 to 1000.(Same validation will be applicable for input and copy past) 
      * Image size should not be more that 1MB. 
