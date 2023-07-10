@@ -22,7 +22,7 @@ Add/Update the existing code in order to satisfy the following requirements:
   
 * Implement cascading dropdown binding between Category and Subcategory and Search listing product on the basis of category and subcategory selection.
   
-* On add product page implement feature to upload image of product and display same image in product listing grid inside Image column.
+* On add product page implement the feature to upload image of product and display same image in product listing grid inside Image column.
 
 * Log all server side exception globally and log  all client side exception on server instead of console.log()
 
