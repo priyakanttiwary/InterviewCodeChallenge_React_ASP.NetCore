@@ -31,7 +31,7 @@ Add/Update the existing code in order to satisfy the following requirements:
      * Quantity field should accept only number between 1 to 1000.(Same validation will be applicable for input and copy past) 
      * Image size should not be more that 1MB. 
   
-* Implement the feature If product quantity is less than 10 then product list grid row background should be in red colour and if quantity between 10 to 100 it should be in orange colour 
+* Implement the business feature, Where If product quantity is less than 10 then product list grid row background should be in red colour and if quantity between 10 to 100 it should be in orange colour 
   and if quantity is more than 100 then it should be in green colure.
 
 * Implement Server side pagination for product listing grid where page size should be 5 only.
