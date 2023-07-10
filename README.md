@@ -1,6 +1,6 @@
 # InterviewCodeChallenge_React_ASP.NetCore
 
-The company you work for recently bought the source code of a ASP.Net Core Web API and React project used to manage products in system for ecommerce business. The original development team left a few comments in the source code regarding issues they could not fix. You have been tasked to fix code and fulfil are requirements defined [below](#requirements). You have full freedom to completely modify the source code and re-arrange the solution as you see fit. Keep in that mind after your work is done, another team will take over to maintain and extend the project.
+The company you work for recently bought the source code of a ASP.Net Core Web API and React project used to manage products in system for ecommerce business. The original development team left comments in the source code regarding issues they could not fix and some aditional requirements they have not developed. You have been tasked to fix code and features and fulfil are requirements defined [below](#requirements). You have full freedom to completely modify the source code and re-arrange the solution as you see fit. Keep in that mind after your work is done, another team will take over to maintain and extend the project.
 
 ## Development requirements
 * [.Net Core 3.1] (https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
