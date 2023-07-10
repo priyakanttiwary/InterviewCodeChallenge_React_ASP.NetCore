@@ -5,7 +5,7 @@ The company you work for recently bought the source code of a ASP.Net Core Web A
 ## Development requirements
 * [.Net Core 3.1] (https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 * Visual Studio.
-* [Node.Js] (https://nodejs.org/en/blog/release/v16.20.1)
+* [Node.Js 16.20.1 or any latest version] (https://nodejs.org/en/blog/release/v16.20.1)
 * [npm] (npm install -g npm)
 
 ## Already developed screen
