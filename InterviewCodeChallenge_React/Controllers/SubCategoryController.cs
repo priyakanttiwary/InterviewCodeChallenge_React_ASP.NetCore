@@ -1,5 +1,6 @@
 ﻿using InterviewCodeChallenge_React.Models;
 using InterviewCodeChallenge_React.Resources;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,17 +16,18 @@ namespace InterviewCodeChallenge_React.Controllers
     public class SubCategoryController : ControllerBase
     {
 
-        private readonly IProductResource productResource;
-        public SubCategoryController(IProductResource productResource)
+        private readonly IHostingEnvironment _hostingEnvironment;
+        public SubCategoryController(IHostingEnvironment hostingEnvironment)
         {
-            this.productResource = productResource;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         // GET: api/<SubCategoryController>
         [HttpGet]
         public IList<Subcategory> Get()
         {
-            return this.productResource.SubCatList();
+            ProductResource productResource = new ProductResource(_hostingEnvironment);
+            return productResource.SubCatList();
         }
 
         // GET api/<SubCategoryController>/5

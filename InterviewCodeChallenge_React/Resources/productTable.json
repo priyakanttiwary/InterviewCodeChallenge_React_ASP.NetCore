@@ -38,5 +38,13 @@
     "Code": "PMT2002",
     "Price": 2000.0,
     "Description": null
+  },
+  {
+    "Id": 6,
+    "Name": "USP Men's  Tshirt",
+    "Quantity": 100,
+    "Code": "USPT10057",
+    "Price": 3000.0,
+    "Description": null
   }
 ]

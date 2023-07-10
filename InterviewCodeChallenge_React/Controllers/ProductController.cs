@@ -1,5 +1,6 @@
 ﻿using InterviewCodeChallenge_React.Models;
 using InterviewCodeChallenge_React.Resources;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,11 +16,11 @@ namespace InterviewCodeChallenge_React.Controllers
     public class ProductController : ControllerBase
     {
 
-        private readonly IProductResource productResource;
+        private readonly IHostingEnvironment _hostingEnvironment;
 
-        public ProductController(IProductResource productResource)
+        public ProductController(IHostingEnvironment hostingEnvironment)
         {
-            this.productResource = productResource;
+            _hostingEnvironment = hostingEnvironment;
 
         }
 
@@ -27,7 +28,8 @@ namespace InterviewCodeChallenge_React.Controllers
         [HttpGet]
         public ProductCollection Get()
         {
-            return this.productResource.List();
+            ProductResource productResource = new ProductResource(_hostingEnvironment);
+            return productResource.List();
         }
 
         // GET api/<ProductController>/5
@@ -41,7 +43,8 @@ namespace InterviewCodeChallenge_React.Controllers
         [HttpPost]
         public ProductDetail Post([FromBody] ProductDetail product)
         {
-            return this.productResource.AddProduct(product);
+            ProductResource productResource = new ProductResource(_hostingEnvironment);
+            return productResource.AddProduct(product);
         }
 
         // PUT api/<ProductController>/5
