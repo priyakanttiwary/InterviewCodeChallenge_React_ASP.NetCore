@@ -20,8 +20,8 @@ Add Product Page
 * Log all server side exception globally and log  all client side exception on server instead of console.log()
 
 * Implement appropriate clint side and server-side validation of add product functionality.
-     * Price field should accept only number decimal point and after decimal point max 2 digit and before decimal point accept max 10 digit number.
-     * Quantity field should accept only number between 1 to 100.
+     * Price field should accept only number decimal point and after decimal point max 2 digit and before decimal point accept max 10 digit number(Same validation will be applicable for input and copy past).
+     * Quantity field should accept only number between 1 to 1000.(Same validation will be applicable for input and copy past) 
      * Image size should not be more that 1MB. 
   
 * Implement the feature If product quantity is less than 10 then product list grid row background should be in red colour and if quantity between 10 to 100 it should be in orange colour 
