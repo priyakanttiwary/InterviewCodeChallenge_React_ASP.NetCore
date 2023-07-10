@@ -18,7 +18,7 @@ Add Product Page
 ## Requirements
 Add/Update the existing code in order to satisfy the following requirements:
 
-* Existing codes have lots of code quality issue  in terms of SOLID principle , Design pattern , asynchronous programming , file write/read, reusability of code in react and c#, react component segregation, http services segregation from component and XSS attack, Please fix all code quality and XSS attack issue as per your knowledge.
+* Existing code has lots of code quality issue  in terms of SOLID principle , Design pattern , asynchronous programming , file write/read, reusability of code in react and c#, react component segregation, http services segregation from component and XSS attack, Please fix all code quality and XSS attack issue as per your knowledge.
   
 * Implement cascading dropdown binding between Category and Subcategory and Search listing product on the basis of category and subcategory selection.
   
