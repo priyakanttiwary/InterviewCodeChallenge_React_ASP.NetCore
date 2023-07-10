@@ -42,7 +42,7 @@ Add/Update the existing code in order to satisfy the following requirements:
 
   ## Completing the challenge
 
-- Upload on your git account and share link with HR in email.
+- Upload code on your git account and share link with HR in email.
 
 
 
