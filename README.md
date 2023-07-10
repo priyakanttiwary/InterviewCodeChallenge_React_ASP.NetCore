@@ -11,7 +11,7 @@ Add Product Page
   ![image](https://github.com/priyakanttiwary/InterviewCodeChallenge_React_ASP.NetCore/assets/87647599/e7f12c74-32a5-45cc-ba88-6100a9ae1cb9)
 
 # Requirement
-* Existing codes have lots of code quality issue  in terms of SOLID principle , Design pattern , asynchronous programming , reusability  of code in react and c#, react component, services segregation and XSS attack, Please fix all code quality and XSS attack issue as per your knowledge.
+* Existing codes have lots of code quality issue  in terms of SOLID principle , Design pattern , asynchronous programming , file write/read reusability of code in react and c#, react component, services segregation and XSS attack, Please fix all code quality and XSS attack issue as per your knowledge.
   
 * Implement cascading dropdown binding between Category and Subcategory and Search listing product on the basis of category and subcategory selection.
   
