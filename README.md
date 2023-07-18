@@ -27,7 +27,7 @@ You need to deliver production quality code that conforms to best practices and 
      |Image        |N.A.        |false     |Should be less than 1MB                   |
 
 * Implement Server side pagination for product listing grid where the page size should be 5.
-
+* Implement bulk upload feature for products.
 * Implement edit feature for products.
 
 * Write Unit test cases of server side code only.
